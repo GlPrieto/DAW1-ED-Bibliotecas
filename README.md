@@ -14,7 +14,7 @@ Se realiza para los lenguajes:
 
 Codigo de biblioteca en:
 
-- [Archivo de cabecera -especificación-](c/aritmetica.h)
+- [Archivo de cabecera -especificación-](c/aritmetica.h) > interfaz que los programadores deben ver.
 - [Archivo de código -implementación-](c/aritmetica.c)
 
 A continuación veremos como:
