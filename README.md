@@ -18,11 +18,12 @@ Codigo de biblioteca en:
 - [Archivo de código -implementación-](c/aritmetica.c)
 
 A continuación veremos como:
-- Crear una biblioteca estática
-- Crear una biblioteca dinámica
-- Usar la biblioteca dinámica como plugin
-- Hacer enlace estático
-- Hacer enlace dinámico
+- Crear una biblioteca estática. Las más antiguas. Cada programa tenia una copia de las bibliotecas estáticas. Problema: se repite mucho código. Actualmente apenas se usan.
+- Crear una biblioteca dinámica. Cuando carga el programa, cargan las bibliotecas. No se meten dentro del programa. Se enlazan con este. Se puede meter en el S.O., cuya actualización será sencilla (archivos.dll o archivo.so), o en la carpeta de la aplicación.
+- Usar la biblioteca dinámica como plugin. Uso moderno. No se cargan al inicio, si no a medida que sean necesarias. Si falla el plugin no tiene por qué fallar la aplicación.
+(Lo anterior podria preguntarlo en el examen).
+- Hacer enlace estático.
+- Hacer enlace dinámico.
 
 Cuando desarrollamos un programa, éste, además de compilarse, necesita enlazarse con la biblioteca estándar del lenguaje y otras bibliotecas propias del desarrollador. 
 
